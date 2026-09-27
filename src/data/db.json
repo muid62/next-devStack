@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Building Modern UIs with daisyUI and Tailwind",
+      "slug": "building-modern-uis-daisyui-tailwind",
+      "excerpt": "Discover how semantic component classes can speed up your workflow and eliminate utility-first CSS clutter.",
+      "category": "Development",
+      "readTime": "3 min read",
+      "publishedDate": "Oct 12, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Coding setup with laptop and code",
+      "author": {
+        "name": "Jane Doe",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+      },
+      "content": "Tailwind CSS revolutionized modern web design by allowing developers to build custom interfaces without leaving their HTML. However, as projects grow, long lists of utility classes can get cluttered. That is where daisyUI comes in.\n\nBy introducing semantic class names like 'btn', 'card', and 'modal', daisyUI lets you write cleaner, maintainable markup while retaining full power to customize styles using standard Tailwind utilities."
+    },
+    {
+      "id": "2",
+      "title": "Mastering TypeScript Generics in DEVCONF 2026",
+      "slug": "mastering-typescript-generics",
+      "excerpt": "Learn how to write flexible, re-usable functions and classes while keeping complete type safety across your stack.",
+      "category": "TypeScript",
+      "readTime": "5 min read",
+      "publishedDate": "Nov 04, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Developer typing on a MacBook keyboard",
+      "author": {
+        "name": "Tanvir Rahman",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1507003211169-0a1dd7228f2d.webp"
+      },
+      "content": "Generics are one of TypeScript's most powerful features, allowing developers to construct reusable components that work over a variety of types rather than a single one.\n\nUsing generics ensures compile-time type safety without duplicating logic across API wrappers, state handlers, or utility helper functions."
+    },
+    {
+      "id": "3",
+      "title": "State Management Patterns for High-Scale Apps",
+      "slug": "state-management-patterns",
+      "excerpt": "A deep dive into functional updates, state batching, and context performance optimizations in React.",
+      "category": "Frontend",
+      "readTime": "7 min read",
+      "publishedDate": "Dec 01, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Monitors showing frontend code",
+      "author": {
+        "name": "Amina Khan",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1494790108377-be9c29b29330.webp"
+      },
+      "content": "As React applications scale, inefficient state management can lead to unnecessary re-renders and sluggish performance. Optimizing state requires understanding key patterns like local component state, context splitting, and external store management.\n\nBy leveraging React 19's automatic batching and functional state updates, high-throughput applications can maintain 60 FPS performance even under heavy user interaction."
+    },
+    {
+      "id": "4",
+      "title": "CSS Subgrid and Container Queries Demystified",
+      "slug": "css-subgrid-and-container-queries",
+      "excerpt": "Stop relying purely on viewport media queries. Learn how component-driven layouts revolutionize responsive design.",
+      "category": "CSS",
+      "readTime": "4 min read",
+      "publishedDate": "Jan 15, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Design wireframes and laptop screen",
+      "author": {
+        "name": "Sarah Jenkins",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+      },
+      "content": "Viewport-based responsive design has served us well, but modern component architectures demand more. Container queries allow elements to respond directly to the width of their parent container rather than the browser window.\n\nPaired with CSS Subgrid, you can align nested content across cards seamlessly without complex JavaScript layout hacks."
+    },
+    {
+      "id": "5",
+      "title": "Optimizing Node.js APIs for Sub-100ms Latency",
+      "slug": "optimizing-nodejs-apis-sub-100ms",
+      "excerpt": "Practical techniques for database indexing, server-side caching with Redis, and async bottleneck elimination.",
+      "category": "Backend",
+      "readTime": "6 min read",
+      "publishedDate": "Feb 02, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Server room with green digital code matrix",
+      "author": {
+        "name": "Alex Rivera",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1507003211169-0a1dd7228f2d.webp"
+      },
+      "content": "Sub-100ms latency is the gold standard for backend services. Achieving this in Node.js requires minimizing database queries, implementing efficient Redis caching strategies, and avoiding CPU-blocking event loop operations.\n\nProfiling event loops, setting compound database indexes, and utilizing fast serializer libraries can immediately slash response times in production."
+    },
+    {
+      "id": "6",
+      "title": "Web Vitals Optimization: Scoring 100 on Lighthouse",
+      "slug": "web-vitals-optimization-lighthouse",
+      "excerpt": "A step-by-step guide to tackling LCP, INP, and CLS scores without sacrificing rich interactive user features.",
+      "category": "Performance",
+      "readTime": "8 min read",
+      "publishedDate": "Feb 18, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Performance metrics dashboard on laptop",
+      "author": {
+        "name": "Amina Khan",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1494790108377-be9c29b29330.webp"
+      },
+      "content": "Google's Core Web Vitals directly impact search rankings and user retention. Improving Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS) requires focused asset delivery optimization.\n\nKey strategies include preloading critical hero images, deferring non-essential dynamic scripts, and explicitly setting dimensional attributes on media containers."
+    },
+    {
+      "id": "7",
+      "title": "Automating Deployments with GitHub Actions",
+      "slug": "automating-deployments-github-actions",
+      "excerpt": "Build robust CI/CD pipelines to automatically test, build, and deploy your TypeScript applications on push.",
+      "category": "DevOps",
+      "readTime": "5 min read",
+      "publishedDate": "Mar 01, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "GitHub screen on a computer monitor",
+      "author": {
+        "name": "Tanvir Rahman",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1507003211169-0a1dd7228f2d.webp"
+      },
+      "content": "Manual deployments introduce human error and slow down delivery velocity. Setting up continuous integration and deployment (CI/CD) pipelines with GitHub Actions ensures every pull request is tested and validated automatically.\n\nWith cached node_modules and parallel test suites, deployment workflows can run in under two minutes."
+    },
+    {
+      "id": "8",
+      "title": "Navigating Your Career from Junior to Tech Lead",
+      "slug": "navigating-career-junior-to-tech-lead",
+      "excerpt": "Technical skill gets you hired, but communication, architectural thinking, and empathy make you a leader.",
+      "category": "Career",
+      "readTime": "6 min read",
+      "publishedDate": "Mar 10, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Developers collaborating in a modern office",
+      "author": {
+        "name": "Jane Doe",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+      },
+      "content": "Transitioning from individual contributor to tech lead requires a fundamental mindset shift. While coding remains important, your primary impact expands to system architecture, mentoring team members, and aligning developer output with business objectives.\n\nFocusing on active listening, clear documentation, and delegation will accelerate your transition into technical leadership."
+    },
+    {
+      "id": "9",
+      "title": "Integrating AI Models directly into React Apps",
+      "slug": "integrating-ai-models-react-apps",
+      "excerpt": "Learn how to stream responses, manage stateful prompts, and render dynamic client-side widgets using React.",
+      "category": "AI & Web",
+      "readTime": "7 min read",
+      "publishedDate": "Apr 05, 2026",
+      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&q=80",
+      "thumbnailAlt": "Abstract artificial intelligence network background",
+      "author": {
+        "name": "Alex Rivera",
+        "avatar": "https://img.daisyui.com/images/stock/photo-1507003211169-0a1dd7228f2d.webp"
+      },
+      "content": "Integrating generative AI capabilities directly into modern React interfaces enables real-time dynamic experiences. Using Server-Sent Events (SSE) or WebSockets, applications can stream LLM tokens to users with instant feedback.\n\nCombining React Server Components with structured generative outputs allows developers to generate UI components on the fly safely."
+    }
+  ]
+}

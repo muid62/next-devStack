@@ -1,0 +1,148 @@
+{
+    "techs": [
+        {
+        "id": "react",
+        "name": "React",
+        "category": "Frontend",
+        "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+        "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
+        "rating": 4.9,
+        "difficulty": "Beginner-Friendly",
+        "badge": "Popular",
+        "documentation": "https://react.dev",
+        "details": "React is an open-source, component-based front-end JavaScript library maintained by Meta and a global developer community. Designed primarily for building single-page applications, React relies on a declarative programming model where state changes seamlessly update the UI using a Virtual DOM. Its component-driven architecture promotes high code reusability, isolated state management, and clear application structure. By combining JSX—a syntax extension integrating HTML directly within JavaScript—React simplifies dynamic template composition while supporting powerful patterns like custom hooks, context state management, and server rendering."
+        },
+        {
+        "id": "nextjs",
+        "name": "Next.js",
+        "category": "Frontend",
+        "description": "A React framework for building fast, scalable, and production-ready web applications.",
+        "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
+        "rating": 4.8,
+        "difficulty": "Intermediate",
+        "badge": "SSR/Edge",
+        "documentation": "https://nextjs.org/docs",
+        "details": "Next.js is a full-stack React framework created by Vercel that streamlines production web development. It delivers hybrid rendering capabilities including Server-Side Rendering (SSR), Static Site Generation (SSG), and Incremental Static Regeneration (ISR). Featuring an intuitive App Router based on file-system structure, built-in dynamic asset optimization, automatic code splitting, and native API route handling, Next.js bridges client and server environments. It allows software engineers to build high-performance, SEO-optimized web applications with minimal configuration overhead."
+        },
+        {
+        "id": "nodejs",
+        "name": "Node.js",
+        "category": "Backend",
+        "description": "A JavaScript runtime that enables developers to build fast and scalable server-side applications.",
+        "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
+        "rating": 4.8,
+        "difficulty": "Intermediate",
+        "badge": "Essential",
+        "documentation": "https://nodejs.org/en/docs/",
+        "details": "Node.js is a cross-platform, open-source runtime environment built on Chrome's V8 engine that allows JavaScript to execute outside the browser. By enabling backend development in JavaScript, Node.js unlocked unified full-stack development workflows. Its single-threaded, non-blocking, event-driven asynchronous architecture makes it exceptionally performant for data-intensive, real-time application workloads such as RESTful APIs, websockets, microservices, and streaming networks. Supported by NPM, the world's largest open-source package ecosystem, Node.js powers modern enterprise backends."
+        },
+        {
+        "id": "express",
+        "name": "Express.js",
+        "category": "Backend",
+        "description": "A lightweight and flexible Node.js framework for building web servers and REST APIs.",
+        "icon": "https://icon.icepanel.io/Technology/svg/Express.svg",
+        "rating": 4.7,
+        "difficulty": "Beginner-Friendly",
+        "badge": "Essential",
+        "documentation": "https://expressjs.com/",
+        "details": "Express.js is a minimalist, unopinionated web application framework designed for Node.js. Acting as the standard server layer for backend Node.js architecture, Express provides powerful abstractions for routing, HTTP request handling, custom middleware execution, and cookie/session management without imposing strict structural patterns. Its modular ecosystem lets developers connect relational or document databases, integrate authentication protocols, and build scalable RESTful and GraphQL APIs efficiently."
+        },
+        {
+        "id": "typescript",
+        "name": "TypeScript",
+        "category": "Language",
+        "description": "A strongly typed programming language that builds on JavaScript for safer and more maintainable applications.",
+        "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+        "rating": 4.9,
+        "difficulty": "Intermediate",
+        "badge": "Versatile",
+        "documentation": "https://www.typescriptlang.org/docs/",
+        "details": "TypeScript is a strongly typed, open-source programming language developed by Microsoft that builds on top of JavaScript by adding optional static type definitions. Compiling down to standard ECMAScript, TypeScript catches syntax and runtime errors during development long before deployment. Features like interface contracts, custom types, generics, and strict compile checking improve codebase maintainability and empower IDE tooling with robust auto-completion and automated refactoring."
+        },
+        {
+        "id": "javascript",
+        "name": "JavaScript",
+        "category": "Language",
+        "description": "A versatile programming language used to create interactive websites and full-stack applications.",
+        "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+        "rating": 4.9,
+        "difficulty": "Beginner-Friendly",
+        "badge": "Popular",
+        "documentation": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "details": "JavaScript is the core scripting and programming language powering interactive user experiences across the web. Standardized under ECMAScript, JavaScript has evolved from client-side script manipulation into a full-featured, multi-paradigm language supporting object-oriented, functional, and event-driven patterns. Executable natively in all modern web browsers and server environments, JavaScript forms the foundation of contemporary front-end frameworks, server runtimes, and mobile applications."
+        },
+        {
+        "id": "tailwindcss",
+        "name": "Tailwind CSS",
+        "category": "Styling",
+        "description": "A utility-first CSS framework for rapidly building modern and responsive user interfaces.",
+        "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
+        "rating": 4.8,
+        "difficulty": "Beginner-Friendly",
+        "badge": "Fast",
+        "documentation": "https://tailwindcss.com/docs",
+        "details": "Tailwind CSS is a utility-first CSS framework engineered for rapidly building custom user interfaces without leaving your HTML markup. Rather than shipping pre-styled UI components, Tailwind provides composable atomic class names for flexbox, grid layouts, typography, spacing, and animations. Powered by a Just-In-Time (JIT) compiler, Tailwind purges unused styles to produce ultra-lightweight CSS bundles while supporting responsive breakpoints and custom theme configurations."
+        },
+        {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "category": "Database",
+        "description": "A powerful, open-source object-relational database system with proven reliability and advanced features.",
+        "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+        "rating": 4.9,
+        "difficulty": "Intermediate",
+        "badge": "Top SQL",
+        "documentation": "https://www.postgresql.org/docs/",
+        "details": "PostgreSQL is an enterprise-grade, open-source object-relational database management system famous for strict SQL compliance, data integrity, and high performance. Supporting complex relational data schemas alongside native JSON document querying (JSONB), PostgreSQL handles structured transactional workloads and analytical queries with ease. Key features include Write-Ahead Logging (WAL), high concurrency through MVCC, custom index types, full-text search capabilities, and ACID-compliant guarantees."
+        },
+        {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "category": "Database",
+        "description": "A document-oriented NoSQL database designed for flexible data models and scalable applications.",
+        "icon": "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+        "rating": 4.8,
+        "difficulty": "Beginner-Friendly",
+        "badge": "Popular",
+        "documentation": "https://www.mongodb.com/docs/",
+        "details": "MongoDB is a leading document-oriented NoSQL database crafted for developer agility, flexible schema design, and horizontal scaling. Data is stored as JSON-like BSON documents, allowing dynamic structures without pre-defined relational tables or complex migration scripts. Featuring built-in sharding for horizontal scaling, automatic failover replica sets, and an expressive aggregation framework, MongoDB simplifies high-throughput cloud database setups."
+        },
+        {
+        "id": "docker",
+        "name": "Docker",
+        "category": "DevOps",
+        "description": "A platform for packaging applications and their dependencies into portable and consistent containers.",
+        "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
+        "rating": 4.8,
+        "difficulty": "Intermediate",
+        "badge": "Containers",
+        "documentation": "https://docs.docker.com/",
+        "details": "Docker is an open-source containerization platform that simplifies building, shipping, and running software across diverse computing environments. By packaging application code alongside its specific system libraries, binaries, and runtime configurations inside isolated containers, Docker guarantees environmental consistency between development workstations, testing environments, and production cloud infrastructure. It streamlines continuous integration pipelines and microservice orchestration."
+        },
+        {
+        "id": "git",
+        "name": "Git",
+        "category": "Tools",
+        "description": "A distributed version control system for tracking changes and collaborating on software projects.",
+        "icon": "https://icon.icepanel.io/Technology/svg/Git.svg",
+        "rating": 4.9,
+        "difficulty": "Beginner-Friendly",
+        "badge": "Essential",
+        "documentation": "https://git-scm.com/doc",
+        "details": "Git is a distributed version control system designed to manage codebase changes across small and large software engineering projects with speed and efficiency. Created by Linus Torvalds, Git maintains full localized history records, enabling developers to create lightweight feature branches, merge updates, resolve code conflicts, and roll back changes seamlessly without constant server connection dependencies."
+        },
+        {
+        "id": "github",
+        "name": "GitHub",
+        "category": "Tools",
+        "description": "A development platform for hosting Git repositories, collaborating on code, and managing projects.",
+        "icon": "https://icon.icepanel.io/Technology/svg/Github.svg",
+        "rating": 4.9,
+        "difficulty": "Beginner-Friendly",
+        "badge": "Standard",
+        "documentation": "https://docs.github.com/",
+        "details": "GitHub is a cloud platform for Git repository hosting, open-source development, and collaborative software engineering. Beyond storing repositories, GitHub provides pull request workflows for code reviews, automated CI/CD pipelines via GitHub Actions, issue tracking, release management, and security vulnerability scanning. It acts as the global platform for enterprise team collaboration and open-source software contribution."
+        }
+    ]
+}
